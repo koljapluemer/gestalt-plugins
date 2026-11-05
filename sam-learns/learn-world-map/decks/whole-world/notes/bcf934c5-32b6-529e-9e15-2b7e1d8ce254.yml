@@ -1,0 +1,21 @@
+id: bcf934c5-32b6-529e-9e15-2b7e1d8ce254
+title: Philippines
+tags:
+  - country
+code: PHL
+alpha2: PH
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 159
+  distractor_choice:
+    enabled: false
+    zoom: 121
+blobs:
+  - label: geometry
+    file: 0ca688782abb9ae8.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

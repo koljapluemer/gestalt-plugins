@@ -1,0 +1,34 @@
+id: 749e1bd8-9733-5d2f-80cf-4a70ca259c6e
+title: South Africa
+tags:
+  - country
+code: ZAF
+alpha2: ZA
+priority: 1
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 153
+  distractor_choice:
+    enabled: false
+    zoom: 116
+relationships:
+  - to: 1475fbf8-ce18-5f56-ae87-e94566b75f55
+    label: distractor
+  - to: f7a6705d-9783-59b7-aaab-99d56e1ca70a
+    label: distractor
+  - to: 53759d35-dc68-5a5e-bb34-0b57265bcef0
+    label: distractor
+  - to: 667a4b4a-d4d6-505f-910a-9ab8bf766876
+    label: distractor
+  - to: 69d98854-77f7-5182-9799-94ec4672a7ea
+    label: distractor
+  - to: 625a27a2-9e95-5d18-804e-532ec5ab2098
+    label: distractor
+blobs:
+  - label: geometry
+    file: 34d53ac9e6ed11dd.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

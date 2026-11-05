@@ -1,0 +1,30 @@
+id: e36658a4-1d1a-523e-af05-8a474bb6f7d1
+title: Armenia
+tags:
+  - country
+code: ARM
+alpha2: AM
+priority: 3
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 137
+  distractor_choice:
+    enabled: false
+    zoom: 130
+relationships:
+  - to: 303b399d-6b99-5997-8007-dde3fc11ae5d
+    label: distractor
+  - to: 2591849a-8010-5e1d-a995-dc4d10fea808
+    label: distractor
+  - to: 9c87c4a3-eae3-550d-9a7e-7f89e487e301
+    label: distractor
+  - to: 72da3e78-78d5-5576-b35f-67507f347573
+    label: distractor
+blobs:
+  - label: geometry
+    file: b421c4d657364225.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

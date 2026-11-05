@@ -1,0 +1,24 @@
+id: f7a6705d-9783-59b7-aaab-99d56e1ca70a
+title: Lesotho
+tags:
+  - country
+code: LSO
+alpha2: LS
+priority: 1
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 112
+  distractor_choice:
+    enabled: false
+    zoom: 130
+relationships:
+  - to: 749e1bd8-9733-5d2f-80cf-4a70ca259c6e
+    label: distractor
+blobs:
+  - label: geometry
+    file: b5743d28f30b954c.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

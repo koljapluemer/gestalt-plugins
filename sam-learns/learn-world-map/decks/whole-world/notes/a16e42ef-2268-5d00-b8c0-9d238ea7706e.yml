@@ -1,0 +1,30 @@
+id: a16e42ef-2268-5d00-b8c0-9d238ea7706e
+title: Spain
+tags:
+  - country
+code: ESP
+alpha2: ES
+priority: 2
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 188
+  distractor_choice:
+    enabled: false
+    zoom: 119
+relationships:
+  - to: 93ea6f97-9c6a-5da2-8494-278f01ec8c2d
+    label: distractor
+  - to: f5aee3af-ca79-5bb0-b0d6-70e5f8e870cc
+    label: distractor
+  - to: 77d7af71-bca6-5e48-a6d2-67a511da24ca
+    label: distractor
+  - to: 29b20b86-85ce-55b1-9454-5cc9502fc959
+    label: distractor
+blobs:
+  - label: geometry
+    file: 840af76740196196.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,21 @@
+id: 00c6f889-da12-5953-8a0c-600eab49a571
+title: Faeroe Islands
+tags:
+  - country
+code: FRO
+alpha2: FO
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: false
+    zoom: 106
+  distractor_choice:
+    enabled: false
+    zoom: 142
+blobs:
+  - label: geometry
+    file: 2836424ff3b83bb7.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

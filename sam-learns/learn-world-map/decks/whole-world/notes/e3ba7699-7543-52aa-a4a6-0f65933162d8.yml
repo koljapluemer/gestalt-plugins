@@ -1,0 +1,28 @@
+id: e3ba7699-7543-52aa-a4a6-0f65933162d8
+title: Dem. Rep. Korea
+tags:
+  - country
+code: PRK
+alpha2: KP
+priority: 1
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 148
+  distractor_choice:
+    enabled: false
+    zoom: 125
+relationships:
+  - to: 0e2f972b-fbbe-5e06-9da3-480a88d8bcd3
+    label: distractor
+  - to: 243b55d4-9e4c-5587-ab3e-e90e2074eb8b
+    label: distractor
+  - to: 2c0da8f4-8069-5e14-81d0-cceb05d881c3
+    label: distractor
+blobs:
+  - label: geometry
+    file: f42ea35e21079a86.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

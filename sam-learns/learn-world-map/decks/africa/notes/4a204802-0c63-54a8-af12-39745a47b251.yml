@@ -1,0 +1,36 @@
+id: 4a204802-0c63-54a8-af12-39745a47b251
+title: Algeria
+tags:
+  - country
+code: DZA
+alpha2: DZ
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 130
+  distractor_choice:
+    enabled: false
+    zoom: 113
+relationships:
+  - to: a037b957-ea0c-5a7b-a6b0-9dd41ed08fba
+    label: distractor
+  - to: ec6aa8ec-194b-57b5-bd16-9cddf5ef0959
+    label: distractor
+  - to: 0b4190d5-1ce6-5a0b-aed2-5072c1b14544
+    label: distractor
+  - to: 77d7af71-bca6-5e48-a6d2-67a511da24ca
+    label: distractor
+  - to: 2cedfac1-4545-5444-a87f-7841ba59803a
+    label: distractor
+  - to: 6217ed15-62d1-5755-a143-a2e4f4415335
+    label: distractor
+  - to: 90e7d81d-b626-5af0-a2e8-c7ee88d69621
+    label: distractor
+blobs:
+  - label: geometry
+    file: 65cb4f01895b83c1.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

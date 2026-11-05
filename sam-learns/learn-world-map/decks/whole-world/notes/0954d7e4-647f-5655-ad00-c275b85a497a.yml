@@ -1,0 +1,26 @@
+id: 0954d7e4-647f-5655-ad00-c275b85a497a
+title: Nepal
+tags:
+  - country
+code: NPL
+alpha2: NP
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 120
+  distractor_choice:
+    enabled: false
+    zoom: 124
+relationships:
+  - to: 0e2f972b-fbbe-5e06-9da3-480a88d8bcd3
+    label: distractor
+  - to: 02d4e22d-951c-54af-b716-34135409046c
+    label: distractor
+blobs:
+  - label: geometry
+    file: cf26b909b3f1e451.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

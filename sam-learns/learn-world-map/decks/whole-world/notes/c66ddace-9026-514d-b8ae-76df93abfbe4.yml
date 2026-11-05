@@ -1,0 +1,28 @@
+id: c66ddace-9026-514d-b8ae-76df93abfbe4
+title: Finland
+tags:
+  - country
+code: FIN
+alpha2: FI
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 167
+  distractor_choice:
+    enabled: false
+    zoom: 121
+relationships:
+  - to: 0e5c0c31-1f12-556d-ba73-206b5b62ca1e
+    label: distractor
+  - to: 243b55d4-9e4c-5587-ab3e-e90e2074eb8b
+    label: distractor
+  - to: 4d2c2fcd-8806-56de-9008-236d8c8ff0c1
+    label: distractor
+blobs:
+  - label: geometry
+    file: 49a7f2f3da88854c.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

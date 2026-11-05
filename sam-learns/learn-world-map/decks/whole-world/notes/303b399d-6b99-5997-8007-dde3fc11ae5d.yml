@@ -1,0 +1,32 @@
+id: 303b399d-6b99-5997-8007-dde3fc11ae5d
+title: Azerbaijan
+tags:
+  - country
+code: AZE
+alpha2: AZ
+priority: 1
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 149
+  distractor_choice:
+    enabled: false
+    zoom: 126
+relationships:
+  - to: e36658a4-1d1a-523e-af05-8a474bb6f7d1
+    label: distractor
+  - to: 2591849a-8010-5e1d-a995-dc4d10fea808
+    label: distractor
+  - to: 9c87c4a3-eae3-550d-9a7e-7f89e487e301
+    label: distractor
+  - to: 243b55d4-9e4c-5587-ab3e-e90e2074eb8b
+    label: distractor
+  - to: 72da3e78-78d5-5576-b35f-67507f347573
+    label: distractor
+blobs:
+  - label: geometry
+    file: b0ca5c803bafd1e7.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,28 @@
+id: e39e15df-b356-5500-8ad5-a4ba122eaf4a
+title: Djibouti
+tags:
+  - country
+code: DJI
+alpha2: DJ
+priority: 2
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: true
+    zoom: 121
+  distractor_choice:
+    enabled: false
+    zoom: 131
+relationships:
+  - to: 1ff9d7cb-ccd7-5cb4-b97f-882f95bd9496
+    label: distractor
+  - to: 267eafe6-36f4-5663-a3ed-1b77236476f8
+    label: distractor
+  - to: cd56c16a-a271-5bd2-a00d-9bfbdc10ff5a
+    label: distractor
+blobs:
+  - label: geometry
+    file: 7bff83fb2c621f4f.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

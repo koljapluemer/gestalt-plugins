@@ -1,0 +1,32 @@
+id: 876be518-16d8-597d-a736-1dce1ab23816
+title: Uzbekistan
+tags:
+  - country
+code: UZB
+alpha2: UZ
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 161
+  distractor_choice:
+    enabled: false
+    zoom: 120
+relationships:
+  - to: ca7ba964-9b1c-53f1-9c6b-475285a88f0a
+    label: distractor
+  - to: 23c88a50-0307-54a7-b0f2-496b73b484ab
+    label: distractor
+  - to: 45832995-6f09-56aa-925b-c08fda7614c7
+    label: distractor
+  - to: 6d526db2-0441-57f5-ab0d-f35ce364c78d
+    label: distractor
+  - to: 9eb813e2-b13b-5d0b-8d16-eec03fb83ccb
+    label: distractor
+blobs:
+  - label: geometry
+    file: bf000c928a9bdeba.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,21 @@
+id: 9ae10a00-8d7e-5f8b-85d2-c23f274140d9
+title: Hong Kong
+tags:
+  - country
+code: HKG
+alpha2: HK
+priority: 2
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 104
+  distractor_choice:
+    enabled: false
+    zoom: 143
+blobs:
+  - label: geometry
+    file: cad533ae292b69db.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

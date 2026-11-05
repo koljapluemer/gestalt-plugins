@@ -1,0 +1,24 @@
+id: 0c4d1f13-f47c-5a86-b656-8ca682c83591
+title: Monaco
+tags:
+  - country
+code: MCO
+alpha2: MC
+priority: 2
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 104
+  distractor_choice:
+    enabled: false
+    zoom: 110
+relationships:
+  - to: f5aee3af-ca79-5bb0-b0d6-70e5f8e870cc
+    label: distractor
+blobs:
+  - label: geometry
+    file: b112cc5c68b754ce.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,30 @@
+id: 726d3b17-3033-5403-a47b-65d1054cf9d0
+title: Belgium
+tags:
+  - country
+code: BEL
+alpha2: BE
+priority: 1
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 125
+  distractor_choice:
+    enabled: true
+    zoom: 130
+relationships:
+  - to: f5aee3af-ca79-5bb0-b0d6-70e5f8e870cc
+    label: distractor
+  - to: d6017f69-9314-5ca9-9970-3d1732b243f7
+    label: distractor
+  - to: ff8bba08-ca8d-531a-8916-a40320c34033
+    label: distractor
+  - to: 099f9a5e-fd88-5dc4-8473-d3e77f13e2bd
+    label: distractor
+blobs:
+  - label: geometry
+    file: 83dcaf959806958f.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,21 @@
+id: 0edc5f88-4148-5ace-9984-adcd755204ff
+title: Åland Islands
+tags:
+  - country
+code: ALA
+alpha2: AX
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: false
+    zoom: 107
+  distractor_choice:
+    enabled: false
+    zoom: 142
+blobs:
+  - label: geometry
+    file: 32956cc806d76f06.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

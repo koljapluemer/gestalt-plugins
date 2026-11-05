@@ -1,0 +1,21 @@
+id: 904bc099-eb99-5a89-9f1a-dcbd785ea9cb
+title: Samoa
+tags:
+  - country
+code: WSM
+alpha2: WS
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: false
+    zoom: 105
+  distractor_choice:
+    enabled: false
+    zoom: 140
+blobs:
+  - label: geometry
+    file: 193e0a902b56223c.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,21 @@
+id: 17fb37a9-1aed-524c-83ce-2af85ec23ec3
+title: Madagascar
+tags:
+  - country
+code: MDG
+alpha2: MG
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 146
+  distractor_choice:
+    enabled: false
+    zoom: 118
+blobs:
+  - label: geometry
+    file: c01ac3ec948354e0.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

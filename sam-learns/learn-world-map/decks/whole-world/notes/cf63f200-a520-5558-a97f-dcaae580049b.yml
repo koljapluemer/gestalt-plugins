@@ -1,0 +1,32 @@
+id: cf63f200-a520-5558-a97f-dcaae580049b
+title: Taiwan
+tags:
+  - country
+code: TWN
+alpha2: TW
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 125
+  distractor_choice:
+    enabled: true
+    zoom: 115
+relationships:
+  - to: 2c0da8f4-8069-5e14-81d0-cceb05d881c3
+    label: distractor
+  - to: 88bada78-da94-5c4c-8574-53b2b4473384
+    label: distractor
+  - to: be117f06-d463-5bf2-85e0-821fac025418
+    label: distractor
+  - to: 212f51e6-e30d-5bf8-9f68-740b6826e400
+    label: distractor
+  - to: 9ae10a00-8d7e-5f8b-85d2-c23f274140d9
+    label: distractor
+blobs:
+  - label: geometry
+    file: af0006f3e4e9e58e.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

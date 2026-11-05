@@ -1,0 +1,21 @@
+id: c45f87fb-3f8b-56a9-9b1d-262838df71a7
+title: Fiji
+tags:
+  - country
+code: FJI
+alpha2: FJ
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: false
+    zoom: 150
+  distractor_choice:
+    enabled: false
+    zoom: 132
+blobs:
+  - label: geometry
+    file: b8d3b8ca0b847158.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

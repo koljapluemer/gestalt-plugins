@@ -1,0 +1,30 @@
+id: 0b4190d5-1ce6-5a0b-aed2-5072c1b14544
+title: Mauritania
+tags:
+  - country
+code: MRT
+alpha2: MR
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 120
+  distractor_choice:
+    enabled: false
+    zoom: 116
+relationships:
+  - to: 4a204802-0c63-54a8-af12-39745a47b251
+    label: distractor
+  - to: ec6aa8ec-194b-57b5-bd16-9cddf5ef0959
+    label: distractor
+  - to: 030a5ac7-f2b8-5ebf-af24-4ee0961e2254
+    label: distractor
+  - to: 90e7d81d-b626-5af0-a2e8-c7ee88d69621
+    label: distractor
+blobs:
+  - label: geometry
+    file: 40d39f36f6e77000.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,28 @@
+id: 9a9402e2-c087-5352-9a30-ef427f0cbea3
+title: Sierra Leone
+tags:
+  - country
+code: SLE
+alpha2: SL
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 114
+  distractor_choice:
+    enabled: true
+    zoom: 127
+relationships:
+  - to: 07e3631c-ea65-5ba3-8395-ba3ba7f6819e
+    label: distractor
+  - to: 078f7bd9-3203-5af8-8fdc-8dd6fdf7a9eb
+    label: distractor
+  - to: e5147eda-911c-56ec-b835-3dc8f87f7b37
+    label: distractor
+blobs:
+  - label: geometry
+    file: addd800948ad1d2d.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

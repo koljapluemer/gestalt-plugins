@@ -1,0 +1,24 @@
+id: 5cad9785-0752-55cb-91d7-aed9d6de7d9a
+title: San Marino
+tags:
+  - country
+code: SMR
+alpha2: SM
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 102
+  distractor_choice:
+    enabled: false
+    zoom: 155
+relationships:
+  - to: bce1dcab-aaaa-5b7b-b825-ad9ce8e8ab0f
+    label: distractor
+blobs:
+  - label: geometry
+    file: aa6a8ea8758bf0c8.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

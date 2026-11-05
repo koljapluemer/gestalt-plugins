@@ -1,0 +1,32 @@
+id: ba89544f-70d9-599c-bdbd-811a2fba4c6c
+title: Syria
+tags:
+  - country
+code: SYR
+alpha2: SY
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 179
+  distractor_choice:
+    enabled: true
+    zoom: 123
+relationships:
+  - to: d252c508-c218-5bda-9872-4224e3b55364
+    label: distractor
+  - to: aaa55aec-62b1-58fe-b365-ea913d56239b
+    label: distractor
+  - to: c4b15184-4f38-50c6-9a3f-77be56996cfc
+    label: distractor
+  - to: fd9f2800-b470-5e16-8e20-297caf13d3ee
+    label: distractor
+  - to: 72da3e78-78d5-5576-b35f-67507f347573
+    label: distractor
+blobs:
+  - label: geometry
+    file: fe04626e3e6163a2.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

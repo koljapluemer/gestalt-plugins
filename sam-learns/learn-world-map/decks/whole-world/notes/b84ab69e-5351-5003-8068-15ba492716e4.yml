@@ -1,0 +1,21 @@
+id: b84ab69e-5351-5003-8068-15ba492716e4
+title: Sri Lanka
+tags:
+  - country
+code: LKA
+alpha2: LK
+priority: 2
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 105
+  distractor_choice:
+    enabled: false
+    zoom: 127
+blobs:
+  - label: geometry
+    file: 8fddd67c1021466b.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

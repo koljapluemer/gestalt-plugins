@@ -1,0 +1,36 @@
+id: 2cedfac1-4545-5444-a87f-7841ba59803a
+title: Niger
+tags:
+  - country
+code: NER
+alpha2: NE
+priority: 1
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 130
+  distractor_choice:
+    enabled: false
+    zoom: 115
+relationships:
+  - to: 4a204802-0c63-54a8-af12-39745a47b251
+    label: distractor
+  - to: b79645a7-9409-5d18-9ca2-3f0ab781f5a0
+    label: distractor
+  - to: e5147eda-911c-56ec-b835-3dc8f87f7b37
+    label: distractor
+  - to: a999633b-ab92-55a6-ad86-19bbb19a1fd6
+    label: distractor
+  - to: a037b957-ea0c-5a7b-a6b0-9dd41ed08fba
+    label: distractor
+  - to: ec6aa8ec-194b-57b5-bd16-9cddf5ef0959
+    label: distractor
+  - to: 76c978d8-4220-5b20-b6e3-4e84302287e9
+    label: distractor
+blobs:
+  - label: geometry
+    file: 5ca848a7e6db2a2f.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

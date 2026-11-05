@@ -1,0 +1,26 @@
+id: 37d87868-cc31-5bd6-bf4c-3111d4946103
+title: Kuwait
+tags:
+  - country
+code: KWT
+alpha2: KW
+priority: 2
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 110
+  distractor_choice:
+    enabled: false
+    zoom: 132
+relationships:
+  - to: d252c508-c218-5bda-9872-4224e3b55364
+    label: distractor
+  - to: f73bcbc9-2138-5ad3-803a-00fed2ba077b
+    label: distractor
+blobs:
+  - label: geometry
+    file: 9cd86e76fb48f5ab.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

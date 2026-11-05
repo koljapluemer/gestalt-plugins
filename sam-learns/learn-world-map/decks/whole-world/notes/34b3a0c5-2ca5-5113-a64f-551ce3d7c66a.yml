@@ -1,0 +1,26 @@
+id: 34b3a0c5-2ca5-5113-a64f-551ce3d7c66a
+title: Equatorial Guinea
+tags:
+  - country
+code: GNQ
+alpha2: GQ
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 123
+  distractor_choice:
+    enabled: false
+    zoom: 131
+relationships:
+  - to: 45789541-93cf-53b6-ae94-658f4c87a55d
+    label: distractor
+  - to: bf069191-d83a-586d-91a1-206ff004f04d
+    label: distractor
+blobs:
+  - label: geometry
+    file: c4526e9b5fe6bf72.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

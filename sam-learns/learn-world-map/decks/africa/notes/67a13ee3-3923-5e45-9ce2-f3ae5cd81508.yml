@@ -1,0 +1,28 @@
+id: 67a13ee3-3923-5e45-9ce2-f3ae5cd81508
+title: Togo
+tags:
+  - country
+code: TGO
+alpha2: TG
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 125
+  distractor_choice:
+    enabled: false
+    zoom: 128
+relationships:
+  - to: b79645a7-9409-5d18-9ca2-3f0ab781f5a0
+    label: distractor
+  - to: e5147eda-911c-56ec-b835-3dc8f87f7b37
+    label: distractor
+  - to: 1e3641e1-08d9-5311-b7bc-2ea3b6aba139
+    label: distractor
+blobs:
+  - label: geometry
+    file: 2e1ea5bbfe56890b.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

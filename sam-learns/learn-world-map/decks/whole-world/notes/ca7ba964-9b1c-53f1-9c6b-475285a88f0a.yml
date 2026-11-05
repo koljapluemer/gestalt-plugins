@@ -1,0 +1,36 @@
+id: ca7ba964-9b1c-53f1-9c6b-475285a88f0a
+title: Afghanistan
+tags:
+  - country
+code: AFG
+alpha2: AF
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 169
+  distractor_choice:
+    enabled: true
+    zoom: 118
+relationships:
+  - to: 9c87c4a3-eae3-550d-9a7e-7f89e487e301
+    label: distractor
+  - to: e1cdc246-82ad-5073-9b95-34f0df62ffd5
+    label: distractor
+  - to: 6d526db2-0441-57f5-ab0d-f35ce364c78d
+    label: distractor
+  - to: 9eb813e2-b13b-5d0b-8d16-eec03fb83ccb
+    label: distractor
+  - to: 876be518-16d8-597d-a736-1dce1ab23816
+    label: distractor
+  - to: 5a9a77e9-b6e4-5adc-ba3f-832aa265548d
+    label: distractor
+  - to: 4a204802-0c63-54a8-af12-39745a47b251
+    label: distractor
+blobs:
+  - label: geometry
+    file: 9bad29cb263e0777.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,26 @@
+id: 099f9a5e-fd88-5dc4-8473-d3e77f13e2bd
+title: Netherlands
+tags:
+  - country
+code: NLD
+alpha2: NL
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 140
+  distractor_choice:
+    enabled: false
+    zoom: 129
+relationships:
+  - to: 726d3b17-3033-5403-a47b-65d1054cf9d0
+    label: distractor
+  - to: d6017f69-9314-5ca9-9970-3d1732b243f7
+    label: distractor
+blobs:
+  - label: geometry
+    file: 0f56363edc2784a3.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

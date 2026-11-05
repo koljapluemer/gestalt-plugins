@@ -1,0 +1,28 @@
+id: 3183fd19-fa3d-54fe-84fa-8b6f314b30c4
+title: Bosnia and Herzegovina
+tags:
+  - country
+code: BIH
+alpha2: BA
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 130
+  distractor_choice:
+    enabled: true
+    zoom: 128
+relationships:
+  - to: a73f2764-746c-5a84-8a33-a23ed0fa5047
+    label: distractor
+  - to: b722a167-4601-50ac-ae82-a06f222d450a
+    label: distractor
+  - to: 951596bf-cbfc-5392-8510-9724fbb324bb
+    label: distractor
+blobs:
+  - label: geometry
+    file: 66e907a3457b4e54.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

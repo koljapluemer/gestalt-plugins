@@ -1,0 +1,26 @@
+id: c485a884-9291-5a3a-a1a2-2160fc74f1ff
+title: Panama
+tags:
+  - country
+code: PAN
+alpha2: PA
+priority: 1
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 126
+  distractor_choice:
+    enabled: false
+    zoom: 126
+relationships:
+  - to: 3aea5858-2fe6-551d-9f99-6c8eba4d521f
+    label: distractor
+  - to: 3110e6ac-cabe-50b8-98f3-ae6b15c9926f
+    label: distractor
+blobs:
+  - label: geometry
+    file: 3140680cb10898fa.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

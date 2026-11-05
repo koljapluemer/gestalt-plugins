@@ -1,0 +1,21 @@
+id: 514b0993-486b-5d99-8fff-e0a8d408a09c
+title: Vanuatu
+tags:
+  - country
+code: VUT
+alpha2: VU
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: true
+    zoom: 125
+  distractor_choice:
+    enabled: false
+    zoom: 134
+blobs:
+  - label: geometry
+    file: 8da9fb621cee6ec4.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

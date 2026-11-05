@@ -1,0 +1,24 @@
+id: ddcd0b84-7fc9-5b95-ab9b-184d9717a7d6
+title: Central America
+tags:
+  - country-group
+  - world-map
+group: central-america
+enabled: true
+relationships:
+  - to: fdaeaad3-fcc1-546e-b27c-eee6312b9ae3
+    label: member
+  - to: 3b00cbf6-b0e2-5602-8d6d-e15e7eb71b23
+    label: member
+  - to: 7b9a7e9d-e612-52c9-81a3-3bcca71fc5d1
+    label: member
+  - to: 9a1be785-b810-5b13-9fe3-0fca25bf76dd
+    label: member
+  - to: c6986aa2-545d-56ac-bf15-d8bd78cac98a
+    label: member
+  - to: 3110e6ac-cabe-50b8-98f3-ae6b15c9926f
+    label: member
+  - to: c485a884-9291-5a3a-a1a2-2160fc74f1ff
+    label: member
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

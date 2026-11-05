@@ -1,0 +1,28 @@
+id: 1ff9d7cb-ccd7-5cb4-b97f-882f95bd9496
+title: Eritrea
+tags:
+  - country
+code: ERI
+alpha2: ER
+priority: 1
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 120
+  distractor_choice:
+    enabled: false
+    zoom: 125
+relationships:
+  - to: e39e15df-b356-5500-8ad5-a4ba122eaf4a
+    label: distractor
+  - to: 267eafe6-36f4-5663-a3ed-1b77236476f8
+    label: distractor
+  - to: 6f3c19ac-5c11-5fd1-bfeb-878cb543503c
+    label: distractor
+blobs:
+  - label: geometry
+    file: 0a068f2e3b83a4e9.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

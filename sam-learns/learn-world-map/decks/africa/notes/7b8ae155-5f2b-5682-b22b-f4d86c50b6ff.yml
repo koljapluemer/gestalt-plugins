@@ -1,0 +1,32 @@
+id: 7b8ae155-5f2b-5682-b22b-f4d86c50b6ff
+title: Republic of the Congo
+tags:
+  - country
+code: COG
+alpha2: CG
+priority: 1
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 120
+  distractor_choice:
+    enabled: true
+    zoom: 121
+relationships:
+  - to: ca9eef64-c3d6-52ad-b6a8-a45b319b1cf9
+    label: distractor
+  - to: 45789541-93cf-53b6-ae94-658f4c87a55d
+    label: distractor
+  - to: 56b8d6ef-cb9c-5cd9-bb26-ce5d9c2f9531
+    label: distractor
+  - to: 4e895686-6b0c-5cd2-be0e-4af465f3aa0e
+    label: distractor
+  - to: bf069191-d83a-586d-91a1-206ff004f04d
+    label: distractor
+blobs:
+  - label: geometry
+    file: 3b49e22b72c65eda.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,21 @@
+id: aa1fc604-b610-5adf-9e3b-e12f7af06d7e
+title: São Tomé and Principe
+tags:
+  - country
+code: STP
+alpha2: ST
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: true
+    zoom: 113
+  distractor_choice:
+    enabled: false
+    zoom: 144
+blobs:
+  - label: geometry
+    file: 5e5ebe94c88bf9be.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

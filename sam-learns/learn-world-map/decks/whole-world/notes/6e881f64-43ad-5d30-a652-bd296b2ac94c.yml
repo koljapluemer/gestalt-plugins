@@ -1,0 +1,21 @@
+id: 6e881f64-43ad-5d30-a652-bd296b2ac94c
+title: Cyprus
+tags:
+  - country
+code: CYP
+alpha2: CY
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 117
+  distractor_choice:
+    enabled: false
+    zoom: 135
+blobs:
+  - label: geometry
+    file: c3cd64a1250ea495.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

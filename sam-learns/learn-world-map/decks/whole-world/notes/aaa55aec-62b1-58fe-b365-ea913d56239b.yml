@@ -1,0 +1,32 @@
+id: aaa55aec-62b1-58fe-b365-ea913d56239b
+title: Israel
+tags:
+  - country
+code: ISR
+alpha2: IL
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 130
+  distractor_choice:
+    enabled: false
+    zoom: 132
+relationships:
+  - to: 4310a64c-4654-56c3-b970-126ee21c344a
+    label: distractor
+  - to: c4b15184-4f38-50c6-9a3f-77be56996cfc
+    label: distractor
+  - to: fd9f2800-b470-5e16-8e20-297caf13d3ee
+    label: distractor
+  - to: 0c554cb3-5c96-59d7-a4f9-aa4bc10ccc46
+    label: distractor
+  - to: ba89544f-70d9-599c-bdbd-811a2fba4c6c
+    label: distractor
+blobs:
+  - label: geometry
+    file: c367d05b69ec9578.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

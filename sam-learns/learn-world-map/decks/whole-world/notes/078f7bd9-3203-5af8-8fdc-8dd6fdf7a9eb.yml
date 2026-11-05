@@ -1,0 +1,28 @@
+id: 078f7bd9-3203-5af8-8fdc-8dd6fdf7a9eb
+title: Liberia
+tags:
+  - country
+code: LBR
+alpha2: LR
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 132
+  distractor_choice:
+    enabled: true
+    zoom: 125
+relationships:
+  - to: a9f741a2-a42f-569e-aa19-e78dad3785e9
+    label: distractor
+  - to: 07e3631c-ea65-5ba3-8395-ba3ba7f6819e
+    label: distractor
+  - to: 9a9402e2-c087-5352-9a30-ef427f0cbea3
+    label: distractor
+blobs:
+  - label: geometry
+    file: 5983b8f08137f490.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

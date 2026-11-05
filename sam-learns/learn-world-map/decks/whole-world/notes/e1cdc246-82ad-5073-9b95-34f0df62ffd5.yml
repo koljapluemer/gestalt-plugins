@@ -1,0 +1,30 @@
+id: e1cdc246-82ad-5073-9b95-34f0df62ffd5
+title: Pakistan
+tags:
+  - country
+code: PAK
+alpha2: PK
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 140
+  distractor_choice:
+    enabled: false
+    zoom: 117
+relationships:
+  - to: ca7ba964-9b1c-53f1-9c6b-475285a88f0a
+    label: distractor
+  - to: 0e2f972b-fbbe-5e06-9da3-480a88d8bcd3
+    label: distractor
+  - to: 02d4e22d-951c-54af-b716-34135409046c
+    label: distractor
+  - to: 9c87c4a3-eae3-550d-9a7e-7f89e487e301
+    label: distractor
+blobs:
+  - label: geometry
+    file: 8805618cd9660996.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

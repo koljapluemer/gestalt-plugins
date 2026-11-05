@@ -1,0 +1,38 @@
+id: 3ba0fc05-9142-54b0-84e3-bd1599f8ab6e
+title: Austria
+tags:
+  - country
+code: AUT
+alpha2: AT
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 163
+  distractor_choice:
+    enabled: false
+    zoom: 126
+relationships:
+  - to: c1b5d926-92a0-5e91-824c-cf640bf062d3
+    label: distractor
+  - to: d6017f69-9314-5ca9-9970-3d1732b243f7
+    label: distractor
+  - to: d3aea733-f397-5fff-9b45-f48d8b59cfdd
+    label: distractor
+  - to: bce1dcab-aaaa-5b7b-b825-ad9ce8e8ab0f
+    label: distractor
+  - to: e440940e-8d12-5164-bcb6-c999407b9d6f
+    label: distractor
+  - to: 9eec57c4-f1e9-5232-a478-282a41bc291f
+    label: distractor
+  - to: 97263722-9772-53ed-91da-01121c137a1f
+    label: distractor
+  - to: 631ff051-1844-51ac-b9cd-3691ed9e34c4
+    label: distractor
+blobs:
+  - label: geometry
+    file: 734d535dd680cc69.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

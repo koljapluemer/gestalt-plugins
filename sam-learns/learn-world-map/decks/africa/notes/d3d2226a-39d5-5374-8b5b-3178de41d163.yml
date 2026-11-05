@@ -1,0 +1,21 @@
+id: d3d2226a-39d5-5374-8b5b-3178de41d163
+title: Saint Helena
+tags:
+  - country
+code: SHN
+alpha2: SH
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: false
+    zoom: 136
+  distractor_choice:
+    enabled: false
+    zoom: 147
+blobs:
+  - label: geometry
+    file: 45a91c48183d190e.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

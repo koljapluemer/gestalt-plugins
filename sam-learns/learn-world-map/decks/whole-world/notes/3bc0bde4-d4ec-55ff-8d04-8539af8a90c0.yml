@@ -1,0 +1,21 @@
+id: 3bc0bde4-d4ec-55ff-8d04-8539af8a90c0
+title: Kiribati
+tags:
+  - country
+code: KIR
+alpha2: KI
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 150
+  distractor_choice:
+    enabled: false
+    zoom: 145
+blobs:
+  - label: geometry
+    file: 3f2d718f22c1c64d.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

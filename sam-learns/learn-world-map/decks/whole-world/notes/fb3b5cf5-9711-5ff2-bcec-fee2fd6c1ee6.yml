@@ -1,0 +1,21 @@
+id: fb3b5cf5-9711-5ff2-bcec-fee2fd6c1ee6
+title: French Polynesia
+tags:
+  - country
+code: PYF
+alpha2: PF
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: false
+    zoom: 150
+  distractor_choice:
+    enabled: false
+    zoom: 138
+blobs:
+  - label: geometry
+    file: 87adc11f3e4bd4c7.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,21 @@
+id: 56ded31d-ac34-5917-9f9c-b7ec7dca0a50
+title: Falkland Islands / Malvinas
+tags:
+  - country
+code: FLK
+alpha2: FK
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: false
+    zoom: 104
+  distractor_choice:
+    enabled: false
+    zoom: 134
+blobs:
+  - label: geometry
+    file: c2556b031408def0.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,21 @@
+id: abc1ea78-2cca-531c-82e5-40956704f411
+title: Palau
+tags:
+  - country
+code: PLW
+alpha2: PW
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: false
+    zoom: 125
+  distractor_choice:
+    enabled: false
+    zoom: 147
+blobs:
+  - label: geometry
+    file: 4059f4c95c859b9b.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

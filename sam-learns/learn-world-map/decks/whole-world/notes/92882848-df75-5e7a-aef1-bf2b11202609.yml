@@ -1,0 +1,21 @@
+id: 92882848-df75-5e7a-aef1-bf2b11202609
+title: Jersey
+tags:
+  - country
+code: JEY
+alpha2: JE
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 104
+  distractor_choice:
+    enabled: true
+    zoom: 105
+blobs:
+  - label: geometry
+    file: c39f861fe15011a2.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

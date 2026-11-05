@@ -1,0 +1,38 @@
+id: c2fb8e49-74f3-5aed-a24e-b56d4664521a
+title: Tanzania
+tags:
+  - country
+code: TZA
+alpha2: TZ
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 161
+  distractor_choice:
+    enabled: true
+    zoom: 117
+relationships:
+  - to: f2b5b698-220f-5ef1-bc48-c31e618b5a76
+    label: distractor
+  - to: 4e895686-6b0c-5cd2-be0e-4af465f3aa0e
+    label: distractor
+  - to: 5dd798cf-a9cf-5ea3-b906-2a281a1ebfae
+    label: distractor
+  - to: ee8b6efe-5d8b-5c1d-b0d3-1c1782aba214
+    label: distractor
+  - to: 53759d35-dc68-5a5e-bb34-0b57265bcef0
+    label: distractor
+  - to: f234d229-a595-5ab6-b913-33e0113fd822
+    label: distractor
+  - to: 4ddad1c1-80b9-5d83-8f66-2b80e78ebd15
+    label: distractor
+  - to: ee3bdc35-58d5-56bd-8f8d-8d88581cea41
+    label: distractor
+blobs:
+  - label: geometry
+    file: d68b99b4f563346a.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

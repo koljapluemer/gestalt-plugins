@@ -1,0 +1,34 @@
+id: d252c508-c218-5bda-9872-4224e3b55364
+title: Iraq
+tags:
+  - country
+code: IRQ
+alpha2: IQ
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 150
+  distractor_choice:
+    enabled: false
+    zoom: 120
+relationships:
+  - to: 9c87c4a3-eae3-550d-9a7e-7f89e487e301
+    label: distractor
+  - to: c4b15184-4f38-50c6-9a3f-77be56996cfc
+    label: distractor
+  - to: 37d87868-cc31-5bd6-bf4c-3111d4946103
+    label: distractor
+  - to: f73bcbc9-2138-5ad3-803a-00fed2ba077b
+    label: distractor
+  - to: ba89544f-70d9-599c-bdbd-811a2fba4c6c
+    label: distractor
+  - to: 72da3e78-78d5-5576-b35f-67507f347573
+    label: distractor
+blobs:
+  - label: geometry
+    file: f429f2061f2f2c8f.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,30 @@
+id: 50a0ea5f-8ce1-57f3-b051-35338c330ae9
+title: Thailand
+tags:
+  - country
+code: THA
+alpha2: TH
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 140
+  distractor_choice:
+    enabled: false
+    zoom: 119
+relationships:
+  - to: 5d6f3c34-2045-59c1-ae44-1ed3ddbcecb8
+    label: distractor
+  - to: dcab464e-1914-5ac7-ae97-cd8ec9a590ac
+    label: distractor
+  - to: 212f51e6-e30d-5bf8-9f68-740b6826e400
+    label: distractor
+  - to: c3268d75-a9d5-57c3-9e0b-eb00b8200822
+    label: distractor
+blobs:
+  - label: geometry
+    file: 7147e9cb9d81307c.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

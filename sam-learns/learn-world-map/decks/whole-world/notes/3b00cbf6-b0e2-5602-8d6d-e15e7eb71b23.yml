@@ -1,0 +1,26 @@
+id: 3b00cbf6-b0e2-5602-8d6d-e15e7eb71b23
+title: Belize
+tags:
+  - country
+code: BLZ
+alpha2: BZ
+priority: 2
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 125
+  distractor_choice:
+    enabled: false
+    zoom: 131
+relationships:
+  - to: fdaeaad3-fcc1-546e-b27c-eee6312b9ae3
+    label: distractor
+  - to: 9c899a33-fcd8-56e4-ac11-c0d95aa17c45
+    label: distractor
+blobs:
+  - label: geometry
+    file: 03f66ef941cd812d.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

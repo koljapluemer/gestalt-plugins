@@ -1,0 +1,28 @@
+id: f2b5b698-220f-5ef1-bc48-c31e618b5a76
+title: Burundi
+tags:
+  - country
+code: BDI
+alpha2: BI
+priority: 2
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 122
+  distractor_choice:
+    enabled: false
+    zoom: 131
+relationships:
+  - to: 4e895686-6b0c-5cd2-be0e-4af465f3aa0e
+    label: distractor
+  - to: f234d229-a595-5ab6-b913-33e0113fd822
+    label: distractor
+  - to: c2fb8e49-74f3-5aed-a24e-b56d4664521a
+    label: distractor
+blobs:
+  - label: geometry
+    file: 7792e4d01aaf7255.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

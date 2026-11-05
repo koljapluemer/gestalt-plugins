@@ -1,0 +1,28 @@
+id: 3b17dc09-7ae2-5e48-842b-d7e8fee13bf0
+title: United States
+tags:
+  - country
+code: USA
+alpha2: US
+priority: 2
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 150
+  distractor_choice:
+    enabled: false
+    zoom: 107
+relationships:
+  - to: 420c6691-2978-5c7f-8691-1f03227af501
+    label: distractor
+  - to: dd9ba1f1-1667-5d22-bcdb-2666aebb259f
+    label: distractor
+  - to: 9c899a33-fcd8-56e4-ac11-c0d95aa17c45
+    label: distractor
+blobs:
+  - label: geometry
+    file: 50d790c77a58d9b7.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

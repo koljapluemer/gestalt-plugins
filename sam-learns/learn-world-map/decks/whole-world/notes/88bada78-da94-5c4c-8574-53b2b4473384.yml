@@ -1,0 +1,21 @@
+id: 88bada78-da94-5c4c-8574-53b2b4473384
+title: Japan
+tags:
+  - country
+code: JPN
+alpha2: JP
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 164
+  distractor_choice:
+    enabled: false
+    zoom: 120
+blobs:
+  - label: geometry
+    file: 9301b3b43bb6b77d.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

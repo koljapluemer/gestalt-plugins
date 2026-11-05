@@ -1,0 +1,28 @@
+id: 0c554cb3-5c96-59d7-a4f9-aa4bc10ccc46
+title: Palestine
+tags:
+  - country
+code: PSE
+alpha2: PS
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 123
+  distractor_choice:
+    enabled: false
+    zoom: 137
+relationships:
+  - to: 4310a64c-4654-56c3-b970-126ee21c344a
+    label: distractor
+  - to: aaa55aec-62b1-58fe-b365-ea913d56239b
+    label: distractor
+  - to: c4b15184-4f38-50c6-9a3f-77be56996cfc
+    label: distractor
+blobs:
+  - label: geometry
+    file: 313c75969a0e985f.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

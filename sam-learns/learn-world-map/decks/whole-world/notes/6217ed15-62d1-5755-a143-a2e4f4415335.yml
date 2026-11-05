@@ -1,0 +1,26 @@
+id: 6217ed15-62d1-5755-a143-a2e4f4415335
+title: Tunisia
+tags:
+  - country
+code: TUN
+alpha2: TN
+priority: 1
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 130
+  distractor_choice:
+    enabled: false
+    zoom: 124
+relationships:
+  - to: 4a204802-0c63-54a8-af12-39745a47b251
+    label: distractor
+  - to: a037b957-ea0c-5a7b-a6b0-9dd41ed08fba
+    label: distractor
+blobs:
+  - label: geometry
+    file: 5f299d9499e5f1c5.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

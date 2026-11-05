@@ -1,0 +1,28 @@
+id: 0d124cb2-9255-514c-b0eb-d3c820c22fdb
+title: Oman
+tags:
+  - country
+code: OMN
+alpha2: OM
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 162
+  distractor_choice:
+    enabled: false
+    zoom: 122
+relationships:
+  - to: f73bcbc9-2138-5ad3-803a-00fed2ba077b
+    label: distractor
+  - to: 8c4d9f95-602c-5b9b-bd25-8094c21390e0
+    label: distractor
+  - to: 60e4b9c1-dab8-5713-b411-1b7c2b94f2b3
+    label: distractor
+blobs:
+  - label: geometry
+    file: 7fd65dfcb3bdf310.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

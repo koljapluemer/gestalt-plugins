@@ -1,0 +1,32 @@
+id: 4e6d980e-70bf-5bb5-b539-347c2443254a
+title: Peru
+tags:
+  - country
+code: PER
+alpha2: PE
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 120
+  distractor_choice:
+    enabled: false
+    zoom: 115
+relationships:
+  - to: bbf2c218-8197-5a50-a270-8acb84ff79dc
+    label: distractor
+  - to: 4c06a526-f59d-557a-9ae1-06b9ed197b16
+    label: distractor
+  - to: a25112ba-f946-5e05-84b5-a8f26d9ecec9
+    label: distractor
+  - to: 3aea5858-2fe6-551d-9f99-6c8eba4d521f
+    label: distractor
+  - to: 4ce39ed8-9276-591a-97e8-fd01dde05251
+    label: distractor
+blobs:
+  - label: geometry
+    file: cd9604c380ce39da.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

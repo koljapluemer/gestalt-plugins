@@ -1,0 +1,68 @@
+id: b980207e-e446-5976-b01b-124db18b42c7
+title: United States Virgin Islands
+tags:
+  - country
+code: VIR
+alpha2: VI
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 115
+  distractor_choice:
+    enabled: false
+    zoom: 148
+relationships:
+  - to: 6c54af97-5bab-5f51-bb2a-e5ade33ba308
+    label: distractor
+  - to: 351fa706-024e-5274-8696-106b105caa25
+    label: distractor
+  - to: cb26174a-43ac-56d9-af74-5bf9358018e2
+    label: distractor
+  - to: a146c6f2-8fe4-5b13-9916-f0da077122eb
+    label: distractor
+  - to: 96b5c8f1-51cc-5685-b964-df1b2711c01b
+    label: distractor
+  - to: 1e9f312b-76a5-54c6-89c1-ea0be2f1ed29
+    label: distractor
+  - to: b1a73366-0340-5445-bd3c-4ea5d523b61b
+    label: distractor
+  - to: dd9ba1f1-1667-5d22-bcdb-2666aebb259f
+    label: distractor
+  - to: 3ff99fbf-e605-54cd-b417-ac23a371a554
+    label: distractor
+  - to: 7f781b19-0dae-53d3-be29-66d96913a854
+    label: distractor
+  - to: 46356c95-b869-5804-b600-d8423b9d0d8c
+    label: distractor
+  - to: 9d9a1c39-7aa5-53a4-87a3-331fea951e67
+    label: distractor
+  - to: 82443d89-24a0-5fb9-b5c1-7feffd148ee9
+    label: distractor
+  - to: cdcc1d7d-aee3-5df1-aabf-118097d12c35
+    label: distractor
+  - to: 9c6c2591-df2c-5c5b-8dd7-853e04825eb7
+    label: distractor
+  - to: d6e02c01-6fa3-5dd7-b721-f1b296b0b70a
+    label: distractor
+  - to: 317dd28c-e6a9-5d64-b526-07638fdbe371
+    label: distractor
+  - to: 1a22e729-1d9f-54c1-9ff1-b7f0d836714c
+    label: distractor
+  - to: 20ce01b1-01c4-5cb4-a704-e1d83343688e
+    label: distractor
+  - to: 62aa7e60-f8eb-5801-a31a-29c408f111ed
+    label: distractor
+  - to: 59cf7288-34a8-588f-9ae8-5f907af2da76
+    label: distractor
+  - to: a504e85c-6bac-5279-be4d-9aa3834355c2
+    label: distractor
+  - to: 9f013e13-2a60-5e02-b19d-eac6ebaee391
+    label: distractor
+blobs:
+  - label: geometry
+    file: f917809a7847570e.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

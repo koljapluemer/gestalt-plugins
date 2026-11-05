@@ -1,0 +1,28 @@
+id: d3c5b0f3-8a80-5e9b-85ce-a835755f56a3
+title: Vietnam
+tags:
+  - country
+code: VNM
+alpha2: VN
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 130
+  distractor_choice:
+    enabled: false
+    zoom: 121
+relationships:
+  - to: 5d6f3c34-2045-59c1-ae44-1ed3ddbcecb8
+    label: distractor
+  - to: 0e2f972b-fbbe-5e06-9da3-480a88d8bcd3
+    label: distractor
+  - to: dcab464e-1914-5ac7-ae97-cd8ec9a590ac
+    label: distractor
+blobs:
+  - label: geometry
+    file: e97ec544834d0d0a.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

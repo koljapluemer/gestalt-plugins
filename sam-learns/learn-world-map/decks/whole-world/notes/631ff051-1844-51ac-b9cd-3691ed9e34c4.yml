@@ -1,0 +1,32 @@
+id: 631ff051-1844-51ac-b9cd-3691ed9e34c4
+title: Switzerland
+tags:
+  - country
+code: CHE
+alpha2: CH
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 141
+  distractor_choice:
+    enabled: false
+    zoom: 129
+relationships:
+  - to: 3ba0fc05-9142-54b0-84e3-bd1599f8ab6e
+    label: distractor
+  - to: f5aee3af-ca79-5bb0-b0d6-70e5f8e870cc
+    label: distractor
+  - to: d6017f69-9314-5ca9-9970-3d1732b243f7
+    label: distractor
+  - to: bce1dcab-aaaa-5b7b-b825-ad9ce8e8ab0f
+    label: distractor
+  - to: e440940e-8d12-5164-bcb6-c999407b9d6f
+    label: distractor
+blobs:
+  - label: geometry
+    file: 318036ebd3666935.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

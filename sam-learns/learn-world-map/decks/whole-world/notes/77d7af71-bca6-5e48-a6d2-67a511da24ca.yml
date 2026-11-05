@@ -1,0 +1,28 @@
+id: 77d7af71-bca6-5e48-a6d2-67a511da24ca
+title: Morocco
+tags:
+  - country
+code: MAR
+alpha2: MA
+priority: 1
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 163
+  distractor_choice:
+    enabled: false
+    zoom: 120
+relationships:
+  - to: 4a204802-0c63-54a8-af12-39745a47b251
+    label: distractor
+  - to: a16e42ef-2268-5d00-b8c0-9d238ea7706e
+    label: distractor
+  - to: 90e7d81d-b626-5af0-a2e8-c7ee88d69621
+    label: distractor
+blobs:
+  - label: geometry
+    file: ece887edafd38e15.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

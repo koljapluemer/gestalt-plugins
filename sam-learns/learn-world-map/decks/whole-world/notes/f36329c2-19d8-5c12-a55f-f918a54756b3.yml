@@ -1,0 +1,21 @@
+id: f36329c2-19d8-5c12-a55f-f918a54756b3
+title: Greenland
+tags:
+  - country
+code: GRL
+alpha2: GL
+priority: 2
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 150
+  distractor_choice:
+    enabled: false
+    zoom: 113
+blobs:
+  - label: geometry
+    file: 2f4004b3fa699f19.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,36 @@
+id: ec6aa8ec-194b-57b5-bd16-9cddf5ef0959
+title: Mali
+tags:
+  - country
+code: MLI
+alpha2: ML
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 150
+  distractor_choice:
+    enabled: false
+    zoom: 115
+relationships:
+  - to: 4a204802-0c63-54a8-af12-39745a47b251
+    label: distractor
+  - to: e5147eda-911c-56ec-b835-3dc8f87f7b37
+    label: distractor
+  - to: a9f741a2-a42f-569e-aa19-e78dad3785e9
+    label: distractor
+  - to: 07e3631c-ea65-5ba3-8395-ba3ba7f6819e
+    label: distractor
+  - to: 0b4190d5-1ce6-5a0b-aed2-5072c1b14544
+    label: distractor
+  - to: 2cedfac1-4545-5444-a87f-7841ba59803a
+    label: distractor
+  - to: 030a5ac7-f2b8-5ebf-af24-4ee0961e2254
+    label: distractor
+blobs:
+  - label: geometry
+    file: ea166dfae17e462f.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

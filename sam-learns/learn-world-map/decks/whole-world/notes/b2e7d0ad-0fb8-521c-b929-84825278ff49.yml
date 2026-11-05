@@ -1,0 +1,30 @@
+id: b2e7d0ad-0fb8-521c-b929-84825278ff49
+title: Isle of Man
+tags:
+  - country
+code: IMN
+alpha2: IM
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: false
+    zoom: 108
+  distractor_choice:
+    enabled: true
+    zoom: 104
+relationships:
+  - to: 92882848-df75-5e7a-aef1-bf2b11202609
+    label: distractor
+  - to: ae473dd7-aa86-5dce-a072-75f82d9c67e3
+    label: distractor
+  - to: 0edc5f88-4148-5ace-9984-adcd755204ff
+    label: distractor
+  - to: 00c6f889-da12-5953-8a0c-600eab49a571
+    label: distractor
+blobs:
+  - label: geometry
+    file: 81c772a1f49a24b9.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

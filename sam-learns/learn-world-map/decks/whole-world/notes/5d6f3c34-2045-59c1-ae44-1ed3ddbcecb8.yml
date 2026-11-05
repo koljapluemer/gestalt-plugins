@@ -1,0 +1,28 @@
+id: 5d6f3c34-2045-59c1-ae44-1ed3ddbcecb8
+title: Cambodia
+tags:
+  - country
+code: KHM
+alpha2: KH
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 120
+  distractor_choice:
+    enabled: false
+    zoom: 123
+relationships:
+  - to: dcab464e-1914-5ac7-ae97-cd8ec9a590ac
+    label: distractor
+  - to: 50a0ea5f-8ce1-57f3-b051-35338c330ae9
+    label: distractor
+  - to: d3c5b0f3-8a80-5e9b-85ce-a835755f56a3
+    label: distractor
+blobs:
+  - label: geometry
+    file: 8b59961df55371d7.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,28 @@
+id: c1b5d926-92a0-5e91-824c-cf640bf062d3
+title: Czech Republic
+tags:
+  - country
+code: CZE
+alpha2: CZ
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 130
+  distractor_choice:
+    enabled: true
+    zoom: 126
+relationships:
+  - to: 3ba0fc05-9142-54b0-84e3-bd1599f8ab6e
+    label: distractor
+  - to: 68390ea7-5c57-5eee-9e9e-c7fb51de2e01
+    label: distractor
+  - to: 9eec57c4-f1e9-5232-a478-282a41bc291f
+    label: distractor
+blobs:
+  - label: geometry
+    file: 8a3018e34c85033a.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

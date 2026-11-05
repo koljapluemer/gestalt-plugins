@@ -1,0 +1,30 @@
+{
+  "name": "@gestalts-plugin/alphabet-pronunciation-via-visual-cognates",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Learn a script by reading words aloud whose pictures give their meaning away",
+  "type": "module",
+  "exports": {
+    ".": "./ui/src/index.ts",
+    "./plugin.yml": "./plugin.yml"
+  },
+  "files": [
+    "plugin.yml",
+    "gestalts",
+    "decks",
+    "ui"
+  ],
+  "scripts": {
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@gestalts/learning": "link:../../../gestalts/packages/learning",
+    "@gestalts/sdk": "link:../../../gestalts/packages/sdk"
+  },
+  "peerDependencies": {
+    "react": "19.3.1"
+  },
+  "devDependencies": {
+    "react": "19.3.1"
+  }
+}

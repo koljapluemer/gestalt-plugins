@@ -1,0 +1,21 @@
+id: 622ed7a4-5268-5f0f-bd52-8c9987c79b78
+title: Northern Mariana Islands
+tags:
+  - country
+code: MNP
+alpha2: MP
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: false
+    zoom: 112
+  distractor_choice:
+    enabled: false
+    zoom: 147
+blobs:
+  - label: geometry
+    file: ca249d11c5765314.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

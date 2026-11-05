@@ -1,0 +1,38 @@
+id: 72da3e78-78d5-5576-b35f-67507f347573
+title: Turkey
+tags:
+  - country
+code: TUR
+alpha2: TR
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 155
+  distractor_choice:
+    enabled: false
+    zoom: 117
+relationships:
+  - to: e36658a4-1d1a-523e-af05-8a474bb6f7d1
+    label: distractor
+  - to: 303b399d-6b99-5997-8007-dde3fc11ae5d
+    label: distractor
+  - to: 09afbf00-b7cf-5ffb-89ec-9abfb5185171
+    label: distractor
+  - to: 2591849a-8010-5e1d-a995-dc4d10fea808
+    label: distractor
+  - to: d59d6fcf-323c-5642-b521-846e394f8b34
+    label: distractor
+  - to: 9c87c4a3-eae3-550d-9a7e-7f89e487e301
+    label: distractor
+  - to: d252c508-c218-5bda-9872-4224e3b55364
+    label: distractor
+  - to: ba89544f-70d9-599c-bdbd-811a2fba4c6c
+    label: distractor
+blobs:
+  - label: geometry
+    file: e65603a49e1c0ac7.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

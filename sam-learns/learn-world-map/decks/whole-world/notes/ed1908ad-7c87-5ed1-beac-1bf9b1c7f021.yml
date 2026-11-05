@@ -1,0 +1,21 @@
+id: ed1908ad-7c87-5ed1-beac-1bf9b1c7f021
+title: Maldives
+tags:
+  - country
+code: MDV
+alpha2: MV
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: false
+    zoom: 103
+  distractor_choice:
+    enabled: false
+    zoom: 105
+blobs:
+  - label: geometry
+    file: bec02da9b372ec67.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

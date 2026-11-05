@@ -1,0 +1,20 @@
+id: f9d0bc56-b4d6-593c-a309-fcbc1804ee8b
+title: Siachen Glacier
+tags:
+  - country
+code: KAS
+priority: 3
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: false
+    zoom: 106
+  distractor_choice:
+    enabled: false
+    zoom: 140
+blobs:
+  - label: geometry
+    file: 5a8e386f30255a21.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

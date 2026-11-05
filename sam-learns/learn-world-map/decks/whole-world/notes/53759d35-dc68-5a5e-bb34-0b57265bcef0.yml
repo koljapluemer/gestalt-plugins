@@ -1,0 +1,34 @@
+id: 53759d35-dc68-5a5e-bb34-0b57265bcef0
+title: Mozambique
+tags:
+  - country
+code: MOZ
+alpha2: MZ
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 130
+  distractor_choice:
+    enabled: false
+    zoom: 117
+relationships:
+  - to: ee8b6efe-5d8b-5c1d-b0d3-1c1782aba214
+    label: distractor
+  - to: 749e1bd8-9733-5d2f-80cf-4a70ca259c6e
+    label: distractor
+  - to: c2fb8e49-74f3-5aed-a24e-b56d4664521a
+    label: distractor
+  - to: ee3bdc35-58d5-56bd-8f8d-8d88581cea41
+    label: distractor
+  - to: 69d98854-77f7-5182-9799-94ec4672a7ea
+    label: distractor
+  - to: 625a27a2-9e95-5d18-804e-532ec5ab2098
+    label: distractor
+blobs:
+  - label: geometry
+    file: 80ff2018aad9fcd0.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

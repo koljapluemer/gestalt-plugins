@@ -1,0 +1,28 @@
+id: 1e3641e1-08d9-5311-b7bc-2ea3b6aba139
+title: Ghana
+tags:
+  - country
+code: GHA
+alpha2: GH
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 142
+  distractor_choice:
+    enabled: true
+    zoom: 122
+relationships:
+  - to: e5147eda-911c-56ec-b835-3dc8f87f7b37
+    label: distractor
+  - to: a9f741a2-a42f-569e-aa19-e78dad3785e9
+    label: distractor
+  - to: 67a13ee3-3923-5e45-9ce2-f3ae5cd81508
+    label: distractor
+blobs:
+  - label: geometry
+    file: 65daeb3cf434c0ae.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

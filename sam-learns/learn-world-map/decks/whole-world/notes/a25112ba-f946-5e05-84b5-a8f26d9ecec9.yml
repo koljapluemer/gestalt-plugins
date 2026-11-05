@@ -1,0 +1,28 @@
+id: a25112ba-f946-5e05-84b5-a8f26d9ecec9
+title: Chile
+tags:
+  - country
+code: CHL
+alpha2: CL
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 150
+  distractor_choice:
+    enabled: true
+    zoom: 117
+relationships:
+  - to: 29502227-e4d5-5da4-a470-d98970a20444
+    label: distractor
+  - to: bbf2c218-8197-5a50-a270-8acb84ff79dc
+    label: distractor
+  - to: 4e6d980e-70bf-5bb5-b539-347c2443254a
+    label: distractor
+blobs:
+  - label: geometry
+    file: 8699d21683f64b66.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

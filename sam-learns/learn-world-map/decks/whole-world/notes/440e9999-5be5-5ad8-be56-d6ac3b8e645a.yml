@@ -1,0 +1,24 @@
+id: 440e9999-5be5-5ad8-be56-d6ac3b8e645a
+title: Timor-Leste
+tags:
+  - country
+code: TLS
+alpha2: TL
+priority: 2
+world_map:
+  find_on_world_map: false
+  identify_country: true
+  neighborhood:
+    enabled: false
+    zoom: 119
+  distractor_choice:
+    enabled: false
+    zoom: 133
+relationships:
+  - to: be117f06-d463-5bf2-85e0-821fac025418
+    label: distractor
+blobs:
+  - label: geometry
+    file: 2f9daf4b14abd2b0.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

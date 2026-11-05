@@ -1,0 +1,30 @@
+id: ca9eef64-c3d6-52ad-b6a8-a45b319b1cf9
+title: Angola
+tags:
+  - country
+code: AGO
+alpha2: AO
+priority: 1
+world_map:
+  find_on_world_map: false
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 130
+  distractor_choice:
+    enabled: false
+    zoom: 115
+relationships:
+  - to: 7b8ae155-5f2b-5682-b22b-f4d86c50b6ff
+    label: distractor
+  - to: 4e895686-6b0c-5cd2-be0e-4af465f3aa0e
+    label: distractor
+  - to: 667a4b4a-d4d6-505f-910a-9ab8bf766876
+    label: distractor
+  - to: ee3bdc35-58d5-56bd-8f8d-8d88581cea41
+    label: distractor
+blobs:
+  - label: geometry
+    file: 47666d514e1567e9.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

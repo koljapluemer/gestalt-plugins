@@ -1,0 +1,30 @@
+id: 965ddf4c-2b3e-56c2-b7f4-e5aa0c5ec9ae
+title: Venezuela
+tags:
+  - country
+code: VEN
+alpha2: VE
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 120
+  distractor_choice:
+    enabled: true
+    zoom: 117
+relationships:
+  - to: 3aea5858-2fe6-551d-9f99-6c8eba4d521f
+    label: distractor
+  - to: e0febf7c-c9b6-5d89-b8e4-7bbdd0620587
+    label: distractor
+  - to: 9a6f9d0c-ffb1-5955-b9ca-c22a4c33e7de
+    label: distractor
+  - to: 6843d5af-b046-5ef2-9ab6-fd5a341d3c2f
+    label: distractor
+blobs:
+  - label: geometry
+    file: f6d2339fc9d00848.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

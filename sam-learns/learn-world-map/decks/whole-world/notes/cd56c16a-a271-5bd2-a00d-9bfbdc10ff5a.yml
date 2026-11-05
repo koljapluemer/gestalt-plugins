@@ -1,0 +1,28 @@
+id: cd56c16a-a271-5bd2-a00d-9bfbdc10ff5a
+title: Somalia
+tags:
+  - country
+code: SOM
+alpha2: SO
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 155
+  distractor_choice:
+    enabled: false
+    zoom: 118
+relationships:
+  - to: e39e15df-b356-5500-8ad5-a4ba122eaf4a
+    label: distractor
+  - to: 267eafe6-36f4-5663-a3ed-1b77236476f8
+    label: distractor
+  - to: 5dd798cf-a9cf-5ea3-b906-2a281a1ebfae
+    label: distractor
+blobs:
+  - label: geometry
+    file: 10f07cca223ca5b9.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

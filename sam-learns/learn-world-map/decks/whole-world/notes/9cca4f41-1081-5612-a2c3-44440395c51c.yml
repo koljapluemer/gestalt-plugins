@@ -1,0 +1,24 @@
+id: 9cca4f41-1081-5612-a2c3-44440395c51c
+title: Denmark
+tags:
+  - country
+code: DNK
+alpha2: DK
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 142
+  distractor_choice:
+    enabled: false
+    zoom: 129
+relationships:
+  - to: d6017f69-9314-5ca9-9970-3d1732b243f7
+    label: distractor
+blobs:
+  - label: geometry
+    file: 9a904246dfda8b1a.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

@@ -1,0 +1,30 @@
+id: 97263722-9772-53ed-91da-01121c137a1f
+title: Slovenia
+tags:
+  - country
+code: SVN
+alpha2: SI
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 130
+  distractor_choice:
+    enabled: false
+    zoom: 132
+relationships:
+  - to: 3ba0fc05-9142-54b0-84e3-bd1599f8ab6e
+    label: distractor
+  - to: a73f2764-746c-5a84-8a33-a23ed0fa5047
+    label: distractor
+  - to: d3aea733-f397-5fff-9b45-f48d8b59cfdd
+    label: distractor
+  - to: bce1dcab-aaaa-5b7b-b825-ad9ce8e8ab0f
+    label: distractor
+blobs:
+  - label: geometry
+    file: d61af931f243c9be.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

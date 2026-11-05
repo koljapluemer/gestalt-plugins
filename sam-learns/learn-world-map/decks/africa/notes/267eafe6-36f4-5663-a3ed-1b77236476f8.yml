@@ -1,0 +1,34 @@
+id: 267eafe6-36f4-5663-a3ed-1b77236476f8
+title: Ethiopia
+tags:
+  - country
+code: ETH
+alpha2: ET
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: true
+    zoom: 171
+  distractor_choice:
+    enabled: false
+    zoom: 116
+relationships:
+  - to: e39e15df-b356-5500-8ad5-a4ba122eaf4a
+    label: distractor
+  - to: 1ff9d7cb-ccd7-5cb4-b97f-882f95bd9496
+    label: distractor
+  - to: 5dd798cf-a9cf-5ea3-b906-2a281a1ebfae
+    label: distractor
+  - to: 8d2c402d-502e-51f0-acf6-481ade12ff38
+    label: distractor
+  - to: cd56c16a-a271-5bd2-a00d-9bfbdc10ff5a
+    label: distractor
+  - to: 6f3c19ac-5c11-5fd1-bfeb-878cb543503c
+    label: distractor
+blobs:
+  - label: geometry
+    file: 7b3f83c3ec266c5d.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"

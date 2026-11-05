@@ -1,0 +1,24 @@
+id: 29b20b86-85ce-55b1-9454-5cc9502fc959
+title: Portugal
+tags:
+  - country
+code: PRT
+alpha2: PT
+priority: 1
+world_map:
+  find_on_world_map: true
+  identify_country: false
+  neighborhood:
+    enabled: false
+    zoom: 200
+  distractor_choice:
+    enabled: false
+    zoom: 126
+relationships:
+  - to: a16e42ef-2268-5d00-b8c0-9d238ea7706e
+    label: distractor
+blobs:
+  - label: geometry
+    file: 8d9ee94d79681bd9.json
+source: "sam-learns-things world-map; regions: UN M49
+  (lukes/ISO-3166-Countries-with-Regional-Codes)"
