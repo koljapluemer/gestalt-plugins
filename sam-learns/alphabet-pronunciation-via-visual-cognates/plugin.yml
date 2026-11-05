@@ -1,7 +1,7 @@
 schema: 2
 id: alphabet-pronunciation-via-visual-cognates
 version: 1.0.0
-host_api: 1
+host_api: 2
 title: Alphabet pronunciation
 description: Learn a script by reading words aloud whose pictures give their meaning away, practised by spaced repetition.
 gestalts: [pronunciation-card@1]

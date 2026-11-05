@@ -1,7 +1,7 @@
 schema: 2
 id: learn-world-map
 version: 1.0.0
-host_api: 1
+host_api: 2
 title: World map
 description: Learn where the countries are, by finding them on the map, in their neighbourhood and among look-alikes, practised by spaced repetition.
 uses: [country@1, fsrs-state@1, practice-session@1, settings@1]
