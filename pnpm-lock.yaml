@@ -8,6 +8,15 @@ importers:
 
   .:
     devDependencies:
+      '@gestalts/kit':
+        specifier: link:../gestalts/packages/kit
+        version: link:../gestalts/packages/kit
+      '@gestalts/learning':
+        specifier: link:../gestalts/packages/learning
+        version: link:../gestalts/packages/learning
+      '@gestalts/view':
+        specifier: link:../gestalts/packages/view
+        version: link:../gestalts/packages/view
       '@types/node':
         specifier: 26.6.6
         version: 26.6.6
@@ -26,6 +35,9 @@ importers:
       oxlint-tsgolint:
         specifier: 7.0.2005
         version: 7.0.2005
+      react:
+        specifier: 19.3.1
+        version: 19.3.1
       typescript:
         specifier: 7.0.2
         version: 7.0.2

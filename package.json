@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "lint": "oxlint sam-learns",
-    "typecheck": "pnpm -r typecheck",
+    "typecheck": "tsc -p sam-learns",
     "test": "vitest run"
   },
   "devDependencies": {
@@ -17,6 +17,10 @@
     "typescript": "7.0.2",
     "vite": "8.3.5",
     "vitest": "5.0.5",
-    "yaml": "2.8.1"
+    "yaml": "2.8.1",
+    "@gestalts/kit": "link:../gestalts/packages/kit",
+    "@gestalts/learning": "link:../gestalts/packages/learning",
+    "@gestalts/view": "link:../gestalts/packages/view",
+    "react": "19.3.1"
   }
 }

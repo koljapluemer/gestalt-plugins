@@ -13,7 +13,7 @@ run = [
 ]
 
 [tasks.check]
-description = "Tests, lints, typechecks, each plugin's standalone build and every deck's lints"
+description = "Tests, lints, typechecks and every deck's health"
 depends = ["setup"]
 shell = "bash -c"
 run = """
@@ -21,21 +21,10 @@ set -euo pipefail
 pnpm lint
 pnpm typecheck
 pnpm test
-for p in */*/plugin.yml; do mise -C ../gestalts run check-plugin-standalone "$PWD/$(dirname "$p")"; done
-for d in */*/decks/*/; do mise -C ../gestalts run lint-data "$PWD/$d" > /dev/null; done
+for d in */*/decks/*/; do mise -C ../gestalts run health-data "$PWD/$d" > /dev/null; done
 """
 
 [tasks.publish-data]
 description = "Prepare a deck for publishing: content-addressed blobs, index.json, lints (gestalts' node, with these plugins)"
-usage = 'arg "<dir>" help="the deck folder, e.g. sam-learns/learn-world-map/decks/africa"'
+usage = 'arg "<dir>" help="the deck folder, e.g. sam-learns/alphabet-pronunciation-trainer/decks/greek-alphabet"'
 run = "mise -C ../gestalts run publish-data \"$PWD/{{usage.dir}}\""
-
-[tasks.import-world-map]
-description = "Rebuild learn-world-map's decks from a sam-learns-things checkout, then publish them"
-usage = 'arg "<sam-learns-things>" help="the sam-learns-things checkout" default="../../sam-learns-things"'
-shell = "bash -c"
-run = """
-set -euo pipefail
-node sam-learns/learn-world-map/import/import.ts "{{usage.sam_learns_things}}"
-for d in whole-world africa; do mise -C ../gestalts run publish-data "$PWD/sam-learns/learn-world-map/decks/$d"; done
-"""
