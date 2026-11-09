@@ -9,9 +9,9 @@ sam-learns/
 ```
 
 A plugin is a folder ([gestalts' `doc/plugins.md`](../gestalts/doc/plugins.md)). Decks are read-only, and two decks that
-hold the same id are merged, so a concept shared between them adds up.
+hold the same id are merged, so a concept shared between them keeps the relations of both.
 
-`alphabet-pronunciation-trainer/tools/build_greek_deck.py` generates the Greek deck's exercises and concepts. What a Greek
+`alphabet-pronunciation-trainer/tools/build_greek_deck.py` generates the Greek deck's flashcards and concepts. What a Greek
 "letter" is lives there, and only there.
 
 ## Developing
