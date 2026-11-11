@@ -21,6 +21,7 @@
     "@gestalts/kit": "link:../gestalts/packages/kit",
     "@gestalts/learning": "link:../gestalts/packages/learning",
     "@gestalts/view": "link:../gestalts/packages/view",
-    "react": "19.3.1"
+    "react": "19.3.1",
+    "lucide-react": "1.66.0"
   }
 }

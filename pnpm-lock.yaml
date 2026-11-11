@@ -29,6 +29,9 @@ importers:
       eslint-plugin-react-hooks:
         specifier: 7.1.1
         version: 7.1.1(eslint@10.14.0)
+      lucide-react:
+        specifier: 1.66.0
+        version: 1.66.0(@types/react@19.3.0)(react@19.3.1)
       oxlint:
         specifier: 1.90.0
         version: 1.90.0(oxlint-tsgolint@7.0.2005)

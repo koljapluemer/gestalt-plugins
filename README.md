@@ -6,6 +6,7 @@ Plugins for [gestalts](../gestalts) apps that are content rather than part of th
 ```
 sam-learns/
   alphabet-pronunciation-trainer/    read a script aloud; decks: greek-alphabet
+  transparent-input/                 watch YouTube with vocabulary cards, each logged on its flemma's concept (gestalter only)
 ```
 
 A plugin is a folder ([gestalts' `doc/plugins.md`](../gestalts/doc/plugins.md)). Decks are read-only, and two decks that
