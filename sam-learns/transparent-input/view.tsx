@@ -1,14 +1,15 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowLeft, Expand } from 'lucide-react';
-import { facetOf, fsrsStates, type FsrsStates } from '@gestalts/learning';
+import { facetOf, fsrsStates, practiceEvent, type FsrsStates } from '@gestalts/learning';
 import { useCapabilities, useDoc, useLlm, useNet, useQuery, useViewState, useWrite, type Item, type JsonMap, type NetResponse, type QueryResult } from '@gestalts/view';
 
 /**
  * Watch a YouTube video with cards for the words worth knowing as they come up (after transparent-input). Subtitles
  * come through the app's `net`, glosses from the user's LLM providers, a few segments ahead of playback, kept in a
- * `glossed-track@1` so a video is glossed once. Each word shown is a `concept@1` per flemma (its base form with all
+ * `glossed-track@1` so a video is glossed once. Each word shown is a `concept@2` per flemma (its base form with all
  * inflections, whatever the part of speech), which the video links with a small strength, and showing it logs a rating-0
- * `concept-practice-event@1`. Words whose flashcard is well learned get no cards; due ones stand out.
+ * `practice-event@1` with that concept as its subject and the video as its origin. Words whose flashcard is well
+ * learned get no cards; due ones stand out.
  */
 
 // ---------- YouTube: ids, subtitle tracks, cues ----------
@@ -321,9 +322,6 @@ function useAll(result: QueryResult): QueryResult {
   return result;
 }
 
-/** When a practice event happens. */
-const nowIso = () => new Date().toISOString();
-
 const browserLanguage = () => (navigator.language || 'en').split('-')[0];
 
 export default function TransparentInput() {
@@ -567,7 +565,7 @@ function Watch({ source, native, setNative, onBack }: { source: Item; native: st
       .then((pairs) => setConceptIds((m) => new Map([...m, ...pairs])));
   }, [segments, language, write, conceptIds]);
   const ids = useMemo(() => [...new Set(conceptIds.values())].slice(0, 500), [conceptIds]);
-  const existing = useQuery(ids.length ? { gestalt: 'concept@1', ids, fields: [], limit: 500 } : null);
+  const existing = useQuery(ids.length ? { gestalt: 'concept@2', ids, fields: [], limit: 500 } : null);
   const exists = useMemo(() => new Set(existing.items.map((c) => c.id)), [existing.items]);
 
   const conceptOf = useCallback((g: Gloss) => conceptIds.get(conceptName(language, g.flemma)), [conceptIds, language]);
@@ -589,9 +587,9 @@ function Watch({ source, native, setNative, onBack }: { source: Item; native: st
     const concept = latest.current.conceptOf(g) ?? await conceptId(write.contentHash, name);
     if (!latest.current.exists.has(concept) && !created.current.has(concept)) {
       created.current.add(concept);
-      await write.put({ id: concept, gestalt: 'concept@1', name });
+      await write.put({ id: concept, gestalt: 'concept@2', name });
     }
-    await write.put({ gestalt: 'concept-practice-event@1', concept, origin: source.id, at: nowIso(), rating: 0 });
+    await write.put(practiceEvent(concept, 'transparent-input', 0, new Date(), source.id));
     pendingLinks.current.add(concept);
   }, [write, language, source.id]);
 

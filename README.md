@@ -7,6 +7,7 @@ Plugins for [gestalts](../gestalts) apps that are content rather than part of th
 sam-learns/
   alphabet-pronunciation-trainer/    read a script aloud; decks: greek-alphabet
   transparent-input/                 watch YouTube with vocabulary cards, each logged on its flemma's concept (gestalter only)
+  phrasebook/                        say everyday things in another language; decks: Italian and Vietnamese for English speakers
 ```
 
 A plugin is a folder ([gestalts' `doc/plugins.md`](../gestalts/doc/plugins.md)). Decks are read-only, and two decks that
@@ -14,6 +15,12 @@ hold the same id are merged, so a concept shared between them keeps the relation
 
 `alphabet-pronunciation-trainer/tools/build_greek_deck.py` generates the Greek deck's flashcards and concepts. What a Greek
 "letter" is lives there, and only there.
+
+`phrasebook/tools/build_phrase_decks.py` (`uv run`) generates the phrase decks from `tools/phrases/<language>.yml`: one
+concept per phrase, shared by every way of saying it (to whom, how politely), and links into the concepts no language
+owns (`function: greet`, `situation: restaurant`, `social: politeness`), so decks meet there. Cards adapted from
+Wikivoyage credit it on the card (`sources`); each deck's `LICENSE.md` says the rest. The Vietnamese pronoun variants
+marked `own: true` were written for the deck and want a native speaker's check.
 
 ## Developing
 

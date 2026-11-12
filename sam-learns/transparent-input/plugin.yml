@@ -6,9 +6,9 @@ description: >-
   counts as having come up, for the concept of its flemma; words whose flashcards you know well get no cards.
 tags: [learning]
 # the video player is a frame of its own, which only works in the app's origin (granted by the distribution)
-frame: same-origin
+permissions: [same-origin]
 # a video's subtitles: YouTube doesn't let pages read them, so the desktop app fetches them
 network: [www.youtube.com]
 llm: true
-reads: [media-source@1, glossed-track@1, flashcard@1, fsrs-data@1, concept@1, concept-practice-event@1]
-writes: [media-source@1, glossed-track@1, concept@1, concept-practice-event@1]
+reads: [media-source@1, glossed-track@1, flashcard@1, fsrs-data@1, concept@2, practice-event@1]
+writes: [media-source@1, glossed-track@1, concept@2, practice-event@1]

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { facetOf, fsrsStates, getScheduler, isStruggling, logConceptPractice, nextItem, Rating, rate, saveReview, useLocalReviews, usePracticeSession, type ConceptStrengths, type Grade } from '@gestalts/learning';
+import { facetOf, fsrsStates, getScheduler, isStruggling, logPractice, nextItem, Rating, rate, ratingOf, saveReview, useLocalReviews, usePracticeSession, type Grade } from '@gestalts/learning';
 import { useBlobUrl, useQuery, useWrite, type Item, type QueryResult } from '@gestalts/view';
 
 const GRADES: { grade: Grade; label: string; className: string }[] = [
@@ -53,7 +53,7 @@ export default function AlphabetTrainer() {
     setCurrent({ id: nextItem(exercises, states.with(f, next), exercise.id, now)?.id ?? null, picked: true });
     const fail = (e: unknown) => setSaveError(e instanceof Error ? e.message : String(e));
     saving.catch(fail);
-    logConceptPractice(write, exercise.id, exercise.value.concepts as ConceptStrengths | undefined, grade, now).catch(fail);
+    logPractice(write, exercise.id, 'alphabet-pronunciation-trainer', ratingOf(grade), now).catch(fail);
   };
 
   const alert = saveError && (

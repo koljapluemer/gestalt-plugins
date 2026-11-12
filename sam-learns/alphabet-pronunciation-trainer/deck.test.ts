@@ -3,11 +3,12 @@ import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { parse } from 'yaml';
 
-type Yml = { id: string; gestalt: string; name?: string; front?: string; tags?: string[]; blobs?: { label: string; file: string }[]; concepts?: Record<string, number>; parents?: string[]; children?: string[]; members?: string[] };
+type Yml = { id: string; gestalt: string; name?: string; front?: string; tags?: string[]; blobs?: { label: string; file: string }[]; concepts?: Record<string, number>; from?: string; to?: string; weight?: number; kind?: string; members?: string[] };
 
 const dir = join(import.meta.dirname, 'decks/greek-alphabet/notes');
 const ymls = readdirSync(dir).map((f) => parse(readFileSync(join(dir, f), 'utf8')) as Yml);
-const concepts = ymls.filter((y) => y.gestalt === 'concept@1');
+const concepts = ymls.filter((y) => y.gestalt === 'concept@2');
+const links = ymls.filter((y) => y.gestalt === 'concept-link@1');
 const exercises = ymls.filter((y) => y.gestalt === 'flashcard@1');
 const concept = (name: string) => concepts.find((c) => c.name === name);
 
@@ -51,9 +52,15 @@ describe('the Greek deck', () => {
     expect(concept('grc:σ')).toBeDefined();
   });
 
-  it('hangs every concept under the alphabet', () => {
+  it('links every letter and word to the alphabet, letters more strongly', () => {
     const root = concept('grc:alphabet')!;
-    expect(root.children).toHaveLength(concepts.length - 1);
-    for (const c of concepts) if (c !== root) expect(c.parents).toEqual([root.id]);
+    expect(links).toHaveLength(concepts.length - 1);
+    for (const c of concepts) {
+      if (c === root) continue;
+      const l = links.filter((x) => x.from === c.id);
+      expect(l).toHaveLength(1);
+      expect(l[0]).toMatchObject({ to: root.id, kind: 'part-of' });
+      expect(l[0].weight).toBe(/^grc:\p{L}$/u.test(c.name!) ? 0.3 : 0.1);
+    }
   });
 });
